@@ -124,7 +124,8 @@ jobs:
         uses: docker/build-push-action@v6
         with:
          push: true
-         tags: rakesshh/bankapp:latest
+         tags: rakeshh123/bankapp:latest
+         file: ./Dockerfile
          
       
     
